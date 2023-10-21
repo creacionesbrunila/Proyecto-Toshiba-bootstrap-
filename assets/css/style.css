@@ -1,0 +1,1144 @@
+
+
+h1 {
+    font-family:'Myriad Pro';
+    font-weight: 400;
+    font-size: 50px;
+}
+
+h2 {
+    font-family:'Myriad Pro';
+    font-weight: 400;
+    font-size: 45px;
+}
+
+h3 {
+    font-family:'Myriad Pro';
+    font-weight: 300;
+    font-size: 30px;
+}
+
+h4 {
+    font-family:'Segoe UI';
+    font-weight: 300;
+    font-size: 20px;
+}
+
+h5 {
+    font-family: 'Myriad Pro';
+    font-weight: 600;
+    font-size: 18px;
+}
+
+h6 {
+    font-weight: 300;
+}
+
+
+p {
+    font-family:'Segoe UI';
+    font-weight: 400;
+    font-size: 18px;
+    line-height:27px;
+}
+
+p.subtitle {
+    font-family: 'Myriad Pro';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+a {
+    font-family:'Segoe UI';
+    font-weight: 300;
+    font-size: 20px;
+    line-height:23px;
+}
+
+footer a {
+    font-size: 18px;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+
+@media only screen and (max-width: 576px){
+    h2 {
+        font-size: 32px;
+    }
+}
+
+
+
+
+/* Menu */
+#menu-principal .nav-link, .dropdown-item {
+    font-family:'Myriad Pro';
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff !important;
+}
+
+#menu-principal .dropdown-item:hover {
+    background-color: #004129;
+}
+
+#menu-principal .nav-link {
+    padding-left: 0.5rem !important;
+    margin-right: 3rem !important;
+}
+
+#menu-principal .dropdown-item {
+    padding: 0.5rem!important;
+}
+
+#menu-principal .nav-item:hover > a > img {
+     
+    transform: rotate(90deg);   
+}
+
+#menu-principal .navbar-nav .dropdown-menu {
+    /* position: static; */
+    background-color: #000;
+}
+#menu-principal .navbar {
+    --bs-navbar-padding-x: 0;
+    --bs-navbar-padding-y: 0rem;
+
+}
+
+#menu-principal .menu-logo {
+    height: 26px;
+}
+
+#menu-principal .dropdown-toggle::after {
+    border-right: 1px solid #fff !important;
+    border-bottom: 1px solid #fff !important;
+    border-top: 0px;
+    border-left: 0px;
+    margin-left: 6px;
+
+    padding: 3px;
+    vertical-align: 0.1em;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+#menu-principal .dropdown-toggle:hover::after {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+
+
+/* header */
+.carusel-logo {
+    margin-bottom: 15%;
+}
+
+.carusel-logo img { 
+    width: 150px; 
+}
+
+.imagen img {
+    width: 100px;
+}
+
+.btn {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.btn-primary {
+    background: #004129;
+    border:none;
+}
+
+.btn-primary:hover {
+    background: #000;
+}
+
+
+.btn-outline-white {
+    background: transparent; 
+    border: 1px solid #fff;
+    color: #ffffff;
+    border-radius: 25px;
+    padding: 7px 45px 10px 45px;
+}
+
+.btn-outline-white:hover {
+    border: 1px solid #fff;
+    opacity: 0.8;
+}
+
+
+
+.btn-outline-dark {
+    background: transparent; 
+    border: 1px solid #000;
+    color: #000;
+    border-radius: 25px;
+    padding: 7px 45px 10px 45px;
+}
+
+.btn-outline-dark.active {
+    background-color: #01422A;
+    color: #fff;
+    border: 1px solid #01422A;
+}
+
+.btn-outline-dark:hover {
+    background-color: #01422A;
+    color: #fff;
+    border: 1px solid #01422A;
+}
+
+
+.btn-dark {
+    background: #000 !important; 
+    border: 1px solid #000;
+    color: rgb(255, 255, 255) !important;
+    border-radius: 25px;
+    padding: 7px 45px 10px 45px;
+}
+
+.btn-dark:hover {
+    border: 1px solid #000;
+    opacity: 0.8;
+}
+
+.btn-white {
+    background: #fff; 
+    border: 1px solid #fff;
+    color: #ffffff;
+    border-radius: 25px;
+    padding: 7px 45px 10px 45px;
+}
+
+.btn-white:hover {
+    border: 1px solid #fff;
+    opacity: 0.8;
+}
+
+
+
+
+/* Home */
+
+#home-hero-carousel .carousel-indicators [data-bs-target] {
+    width: 20px;
+}
+#home-hero-carousel .carousel-indicators .active {
+    width: 40px;
+    height: 5px;
+    margin-top: -1px;
+}
+
+.vl {
+    border-left: 1px solid #000000;
+    height: 303px;
+    width: 1px;
+    margin: auto;
+    opacity: .25;
+}
+
+ .separador {
+    border-left: 2px solid #000000;
+    /* height: 350px; */
+    
+}
+.dark{
+    background-color: var(--black);
+}
+
+
+
+  /* Sección Enjoy */
+  section#enjoy {
+    background-image: url(../img/c350-cover-mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+    height: 540px;
+}
+
+section#enjoy-lg {
+    background-image: url(../img/enjoy_background_desktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+    height: 540px;
+}
+
+/* Scrollable Cards */
+
+section.scrollable-cards {
+    background-color: #000000;
+    border: none;
+}
+
+.scrollable-cards .row::-webkit-scrollbar {
+    height: 8px;
+      }
+.scrollable-cards .row::-webkit-scrollbar-track {
+    background: #a8a8a8; 
+    height: 1px;
+}
+
+.scrollable-cards .row::-webkit-scrollbar-thumb {
+    background: rgb(255, 255, 255);
+    height: 2px;
+} 
+
+#scrollable-cards-2.scrollable-cards .row::-webkit-scrollbar-track {
+    background: #a8a8a8; 
+    height: 1px;
+}
+
+#scrollable-cards-2.scrollable-cards .row::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0);
+    height: 2px;
+}
+
+  /* Sección Feel */
+  section#feel {
+    background-image: url(../img/v35l-cover-mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+    height: 540px;
+  }
+
+  section#feel-lg {
+    background-image: url(../img/end.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+    height: 540px;
+  }
+  
+  /* Sección Dónde Comprar */
+  #to-buy .tiendas-logo {
+    min-height: 70px;
+    object-fit: contain;
+  }
+
+/* Sección Contacto */
+section#home-contact {
+    background-size: cover !important;
+    background: url("../img/Rectangle\ 132371.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+@media only screen and (max-width: 576px){
+    section#home-contact {
+        height: 700px;
+    }
+}
+
+
+
+
+/* Página: Dónde Comprar */
+
+#donde-comprar-hero {
+    background: url(../img/cover-img-DC-mobile.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    width: 100%;
+    height: 381px;
+
+}
+
+section#donde-comprar-store {
+    background-color: #F9F9F9;
+}
+
+section#donde-comprar-store hr {
+    width: 83px;
+}
+
+section#donde-comprar-store .tienda-ubicacion h4 {
+    color: #025033;
+    font-size: 18px;
+}
+
+section#donde-comprar-store .tienda-ubicacion a {
+    color: #025033;
+    font-weight: 600;
+}
+
+section#donde-comprar-store .tienda .modal .btn-close {
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    background: #000 url("../img/btn-close-cross.svg") center/1em auto no-repeat;
+    opacity: 1;
+    border-radius: 300px;
+    color: #fff;
+    z-index: 3000;
+}
+
+section#donde-comprar-store .tienda .tienda-box {
+    width: 257px;
+    height: 138px;
+    
+}
+
+section#donde-comprar-help {
+    overflow: hidden;
+    background-size: cover !important;
+    background: url(../img/ayuda-bg-mobile.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:750px;
+}
+
+/* Declaracion de estilos cuando la pantalla tiene un ancho mayor a mobile */
+@media only screen and (min-width: 576px) {
+
+section#donde-comprar-store .categorias-wrapper {
+    margin: auto;
+    width: 100%;
+}
+
+section#donde-comprar-help {
+    position: relative;
+    overflow: hidden;
+    background-size: cover !important;
+    background: url("../img/Rectangle\ 132371.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+ }
+
+section#donde-comprar-store .tienda .modal .btn-close {
+    right: -12px;
+    top: -12px;
+}
+
+}
+
+@media only screen and (min-width: 1200px) {
+#donde-comprar-hero {
+    background: url(../img/cover-img-DC-desktop.jpg) ;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 50vh;
+    background-size: 100%;
+}
+}
+
+/* Fin Página: Dónde Comprar */
+
+
+
+
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 576px) {
+   
+    .container-lg {
+       --bs-gutter-x: 0;
+    }
+
+    #home-hero-carousel .carousel-caption {
+        left: 10%;
+        right: 10%;
+    }
+    
+
+    .carusel-logo  {
+        margin-bottom: 70%;
+    }
+    .separador {
+        border-top: 2px solid #000000;
+       
+    }
+    .imgfooter {
+        background: url("../img/footer-gradient-mobile.png");
+      
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+  
+}
+
+
+/* Página: Soporte */
+
+#soporte-hero {
+    background: url(../img/soporte-d.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: right; 
+    background-position-y: center; 
+    height: 566px;
+}
+
+#soporte-link-faq {
+    background: linear-gradient(180deg, #003521 0%, #045F3D 100%);
+}
+#soporte-link-faq .card-link {
+    height: 170px;
+    width: 260px;
+}
+
+#soporte-hero .bggradient {
+    background: linear-gradient(76.55deg, #080707 0%, rgba(3, 3, 3, 0) 50%); 
+}
+
+ @media only screen and (max-width: 576px){
+    #soporte-hero {
+        background: url(../img/soporte-m.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: top;
+        height: 450.09px; 
+    
+    }
+    #soporte-hero .bggradient {
+    background: linear-gradient(180deg, #000000 10%, rgba(0, 0, 0, 0) 80%); 
+    }
+}
+/* Fin Página: Soporte */
+
+
+/* Página: Contacto */
+    /* Contacto */
+
+    /* Hero */
+    #contacto-hero {
+        background: url(../img/d-contacto.png) ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: right; 
+        background-position-y: center; 
+        height: 566px;
+        
+    }
+    #contacto-hero .bggradient {
+        background: linear-gradient(76.55deg, #080707 14.22%, rgba(3, 3, 3, 0) 71.34%);
+        
+
+    }
+
+   /* Contacto Ayuda */
+   .contacto-card {
+    min-width: 382px;
+    max-height: 138px;
+   }
+
+   .contacto-card-body {
+    margin-top: 22px;
+    min-height: 75px;
+    background: linear-gradient(147.04deg, #004129 19.67%, #056844 99.49%);
+    border-radius: 15px;
+    }   
+   
+   .cardgradient {
+    background: linear-gradient(147.04deg, #000000 19.67%, #013A25 99.49%);
+    border-radius: 15px;
+
+   }
+
+
+   /* Contacto Form */
+   #contacto-form {
+    background: #FBFBFB;
+   }
+
+   #contacto-form h2 {
+    font-family: 'Myriad Pro';
+    font-weight: 300;
+    font-size: 32px;
+   }
+
+   /* Contacto Newsletter */
+   #contacto-newsletter{
+    background-color: #DADADA;
+    }
+
+    #contacto-newsletter h2 {
+        font-size: 50px;
+    }
+
+    #contacto-newsletter hr {
+        width: 59px;
+        opacity: 1;
+        border-width: 2px;
+    }
+
+
+
+@media only screen and (max-width: 576px){
+    #contacto-hero {
+        background: url(../img/m-contacto.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position-y: top;
+        height: 450.09px; 
+       
+    }
+    #contacto-hero .bggradient {
+    background: linear-gradient(180deg, #000000 5.00%, rgba(0, 0, 0, 0) 45.00%); 
+    }
+    
+    .contacto-card {
+        min-width: unset;
+        width: 100%;
+        max-height: 101px;
+    }
+
+    .contacto-card-body {
+    margin-top: 22px;
+    min-height: 75px;
+    }
+
+    #contacto-newsletter h2 {
+        font-size: 28px;
+    }
+
+    #contacto-newsletter hr {
+        width: 59px;
+        opacity: 1;
+        border-width: 2px;
+    }
+
+    #form-newsletter input::-webkit-input-placeholder { /* Edge */
+        font-size: 12px;
+      }
+      
+    #form-newsletter input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+        font-size: 12px;
+      }
+      
+    #form-newsletter input::placeholder {
+        font-size: 12px;
+      }
+
+}
+
+/* Fin Página: Contacto */
+
+
+/* Faq */
+
+    /* Hero */
+    #faq-hero {
+        background: url(../img/faq-hero-desk.jpg) ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: right; 
+        background-position-y: center; 
+        height: 566px;
+        
+    }
+    #faq-hero .bggradient {
+        background: linear-gradient(76.55deg, #080707 14.22%, rgba(3, 3, 3, 0) 71.34%);
+        
+
+    }
+
+    /* Página: Preguntas Frecuentes */
+
+    #faq-listado .accordion-button.faq-title {
+        font-family: 'Myriad Pro';
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 27px;
+    }
+
+    #faq-listado .accordion-body p {
+        font-family: 'Myriad Pro';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #606060;
+    }
+
+    #faq-listado .accordion-button.faq-title::after {
+        background-image: url(../img/faq-arrow-down.svg);
+    }
+
+    #faq-listado .accordion-button.faq-title:not(.collapsed) {
+        color: #000000;
+        font-weight: 600;
+    }
+
+    #faq-listado .accordion-button.faq-title:not(.collapsed)::after {
+        background-image: url(../img/faq-arrow-down.svg);
+        transform: url(../img/faq-arrow-up.svg);
+    }
+
+    #faq-listado .bg-faq {
+        background-color: #F6F6F6;
+    }
+
+
+@media only screen and (max-width: 576px){
+    #faq-hero {
+        background: url(../img/faq-hero-mob.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position-y: top;
+        height: 450.09px; 
+       
+    }
+    #faq-hero .bggradient {
+    background: linear-gradient(180deg, #000000 5%, rgba(0, 0, 0, 0) 85%); 
+    }
+    
+}
+/* Fin Página: Preguntas Frecuentes */
+
+
+/* Página Garantía */
+#garantia-hero {
+    background: url(../img/garantia-d.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: right; 
+    background-position-y: center; 
+    height: 566px;
+}
+
+#garantia-hero .bggradient {
+    background: linear-gradient(76.55deg, #080707 0%, rgba(3, 3, 3, 0) 50%); 
+}
+#mensajecov hr {
+    width: 283px;
+    border: 1px solid #000000;
+}
+#productos-garantia   hr {
+
+    width: 1061px;
+    border: 1px solid #000000;
+}
+
+.periodos {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.periodos.title {
+    background-image: url(../img/rectangle-d.png);		
+    border-radius: 30px 30px 0px 0px;
+}
+
+.periodos.start {
+    background-image: url(../img/cuadrado1.png);
+    border-radius: 0px 0px 0px 30px;
+}
+
+.periodos.center {
+    background-image: url(../img/cuadrado-2-3.png);
+}
+
+.periodos.end {
+    background-image: url(../img/cuadrado-4.png);
+    border-radius: 0px 0px 30px 0px;
+}
+
+.periodos h3 {
+    font-size: 28px;
+}
+
+.periodos h4 {
+    font-size: 85px;
+    font-weight: 600;
+}	
+
+.garantia-datos p {
+    font-family: 'Myriad Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.garantia-datos .bg-secondary {
+    background-color: #F8F8F8 !important;
+}
+
+
+@media only screen and (max-width: 576px){
+
+    #garantia-hero {
+        background: url(../img/garantia-m.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: top;
+        height: 450.09px; 
+    
+    }
+    #garantia-hero .bggradient {
+        background: linear-gradient(180deg, #000000 10%, rgba(0, 0, 0, 0) 80%); 
+    }
+    #garantia-hero  br {
+        display: none;
+    }
+    .periodos.title {
+        background-image: url(../img/rectangle-m.png);
+    }
+
+    .periodos.start {
+        background-image: url(../img/cuadrado-1-m.png);
+        border-radius: 0px 0px 0px 0px;
+    }
+
+    .periodos.center {
+        background-image: url(../img/cuadrado-1-m.png);
+    }
+
+    .periodos.end {
+        background-image: url(../img/cuadrado-4-m.png);
+        border-radius: 0px 0px 30px 30px;
+    }
+
+    .periodos h3 {
+        font-size: 22px;
+}
+
+    .periodos h4 {
+        font-size: 65px;
+    }	
+
+}
+
+/* Fin Página Garantía */
+
+
+/* Inicio Página Descargas */
+#descargas-hero {
+    background: url(../img/descargas-d.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: right; 
+    background-position-y: center; 
+    height: 566px;
+    
+}
+#descargas-hero .bggradient {
+    background: linear-gradient(76.55deg, #080707 14.22%, rgba(3, 3, 3, 0) 71.34%);
+    
+
+}
+#descargas-buscador hr{
+     width: 1144px;
+}
+/* .descargas-card {
+    height: 248px;
+    width: 284px;
+} */
+.descargas-card-body{
+    /* height: 89px;
+    width: 284px; */
+    background: linear-gradient(147.04deg, #004129 19.67%, #056844 99.49%);
+}
+#ubicar-modelo {
+    background: #F0F0F0;
+}
+
+@media only screen and (max-width: 576px){
+    #descargas-hero {
+        background: url(../img/descargas-m.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position-y: top;
+        height: 450.09px; 
+    
+    }
+    #descargas-hero .bggradient {
+    background: linear-gradient(180deg, #000000 5.00%, rgba(0, 0, 0, 0) 45.00%); 
+    }
+    #descargas-buscador hr{
+        width: 326px;
+    }
+    /* .descargas-card {
+        height: 191px;
+        width: 326px;
+    } */
+    .descargas-card-body{
+        /* height: 65px;
+        width: 326px; */
+        background: linear-gradient(147.04deg, #004129 19.67%, #056844 99.49%);
+    }
+    #descargas-manuales h2 {
+        font-size: 25px;
+    }
+
+}
+
+/* Fin Página Descargas */
+
+
+
+/* Inicio Página Producto C350 */
+#producto-4k .card .card-img-top {
+    max-width: 70px;
+    min-height: 70px;
+}
+
+#producto-4k .section-top {
+    background-image: url(../img/producto-4k-gradientes.png);
+    background-blend-mode: hard-light;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#producto-subheader .nav-link {
+    margin-right: unset !important;
+    padding-right: 8px;
+}
+
+#producto-subheader .navbar-nav .nav-link {
+    color: var(--bs-nav-link-color) !important;
+}
+
+#producto-subheader .navbar-nav .nav-link:focus, #producto-subheader .navbar-nav .nav-link:hover {
+    color: var(--bs-nav-link-hover-color) !important;
+}
+
+
+#producto-subheader .navbar-nav .nav-link.active {
+    color: var(--bs-navbar-active-color) !important;
+}
+
+#producto-hero .nav-link {
+    color: #000000;
+    margin-right: unset !important;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#producto-hero .nav-pills .nav-link.active, #producto-hero .nav-pills .show>.nav-link {
+    color: var(--bs-nav-pills-link-active-color);
+    background-color: #004129;
+    border-style: solid;
+    border-width: 1px;
+}
+
+
+#tipos-sonidos {
+    background: url(../img/aura-centrar.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-position: center;
+    height: 638px; 
+}
+
+#tipos-sonidos .card-sonido {
+    height: 282px;
+    width: 488px;
+
+
+}
+
+#diseño-elegante {
+    background: url(../img/design-borde-top-end-d.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+    height: 449px; 
+
+}
+
+#contenido-favorito {
+    background: url(../img/contenido-favorito-d.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+    height: 546px; 
+}
+
+#tambien-conoce-c-i .banner-header {
+    background: url(../img/tambien-conoce-c-i-d.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    height: 407px; 
+
+}
+
+#tambien-conoce-c-i .banner-body {
+    margin-top: -200px;
+}
+
+
+@media only screen and (max-width: 576px){
+
+    #producto-hero #carrusel-producto-galeria .carousel-control-prev {
+        left: 50px;
+        transform: rotate(270deg);
+    }
+    
+    #producto-hero #carrusel-producto-galeria .carousel-control-next {
+        right: 50px;
+        transform: rotate(270deg);
+    }
+
+    #producto-4k .section-top {
+        background-image: url(../img/producto-4k-gradientes-m.png);
+        background-blend-mode: hard-light;
+    }
+    
+    #tipos-sonidos .card-sonido {
+        height: 201px;
+        width: 327px;
+    }
+
+    #diseño-elegante {
+        background: url(../img/design-borde-top-end-m.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        height: 585px; 
+
+    }
+    #contenido-favorito {
+        background: url(../img/contenido-favorito-m.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        height: 746px; 
+    }
+    #tambien-conoce-c-i .banner-header {
+        background: url(../img/tambien-conoce-c-i-m.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: top;
+        height: 407px; 
+
+    }
+}
+
+/* Fin Producto C350 */
+
+
+
+/* Producto V35L */
+#producto-fhd .card .img-container {
+    min-height: 100px;
+}
+
+#producto-fhd .section-top {
+    background: url(../img/producto-v35l-fhd.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-bottom: 50%;
+}
+
+#tipos-audios {
+    background: url(../img/aura-costados.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-position: center;
+    height: 638px; 
+}
+#conectado-inmerso {
+    background: url(../img/conectado-borde-top-end-d.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+    height: 449px; 
+
+}
+#opcion-entretenimiento {
+    background: url(../img/opcion-entretenimiento-d.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+    height: 546px; 
+}
+#tambien-conoce-r-i .banner-header {
+    background: url(../img/tambien-conoce-r-i-d.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    height: 407px; 
+
+}
+#tambien-conoce-r-i .banner-body {
+    margin-top: -200px;
+}
+@media only screen and (max-width: 576px){
+    #producto-fhd .section-top {
+        background-image: url(../img/producto-v35l-fhd-m.jpg);
+        padding-bottom: 60%;
+    }
+
+    #especificaciones-tectnicas .specs-title {
+        min-width: 50%;
+    }
+
+	#conectado-inmerso {
+        background: url(../img/conectado-borde-top-end-m.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        height: 585px; 
+
+    }
+	#opcion-entretenimiento {
+        background: url(../img/opcion-entretenimiento-m.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        height: 746px; 
+    }
+	#tambien-conoce-r-i .banner-header {
+        background: url(../img/tambien-conoce-r-i-m.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: top;
+        height: 407px; 
+
+    }
+}
+
+/* Fin Producto V35L */
+
+
+
+/* Footer */
+
+footer {
+    background: linear-gradient(147.04deg, #000000 19.67%, #013A25 99.49%);
+}
+
+footer a {
+    font-size: 18px;
+}

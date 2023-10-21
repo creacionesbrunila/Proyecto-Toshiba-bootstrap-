@@ -1,0 +1,84 @@
+/*
+font-weight: 100    Extra Light or Ultra Light
+font-weight: 200    Light or Thin
+font-weight: 300    Book or Demi
+font-weight: 400    Normal or Regular
+font-weight: 500    Medium
+font-weight: 600    Semibold, Demibold
+font-weight: 700    Bold
+font-weight: 800    Black, Extra Bold or Heavy
+font-weight: 900    Extra Black, Fat, Poster or Ultra Black
+*/
+
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('../fonts/segoeuil.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('../fonts/segoeui.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+
+}
+/* @font-face {
+    font-family: 'Segoeui';
+    src: url('../fonts/S') format('truetype');
+    font-weight: 300;
+    font-style: Book ;
+
+} */
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('../fonts/seguisb.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('../fonts/segoeuib.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('../fonts/MyriadPro-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Myriad Pro';
+	src: url('../fonts/MyriadPro-Regular.otf')  format('opentype');
+	font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Myriad Pro';
+	src: url('../fonts/MyriadPro-Semibold.otf')  format('opentype');
+	font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Myriad Pro';
+	src: url('../fonts/MyriadPro-bold.otf')  format('opentype');
+	font-weight: 700;
+    font-style: normal;
+}
